@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('i-love-u', function (){
+   return view('test');
+});
+
 
